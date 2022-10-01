@@ -24,19 +24,19 @@ def start(message):
     day_part = int(datetime.today().hour)
 
 
-    if day_part > 0 and  day_part < 6:
+    if day_part >= 0 and  day_part < 6:
         if random.randint(1, 100) == 100:
             text2 = ("Хуле палишь, ты время видел?\nИди в доту, гений")
         else:
             text2 = ("Хуле палишь, ты время видел?\nИди в кроватку, пупсик <3")
 
-    elif day_part > 6 and  day_part < 12:
+    elif day_part >= 6 and  day_part < 12:
         text2 = ("Доброе утро!")
 
-    elif day_part > 12 and  day_part < 16:
+    elif day_part >= 12 and  day_part < 16:
         text2 = ('Добрый день!')
 
-    elif  day_part > 16 and  day_part < 23.59:
+    elif  day_part >= 16 and  day_part < 24:
         text2 = ('Добрый вечер!')
 
 
@@ -66,19 +66,19 @@ def func(message):
             day_part = int(datetime.today().hour)
 
 
-            if day_part > 0 and  day_part < 6:
+            if day_part >= 0 and  day_part < 6:
                 if random.randint(1, 100) == 100:
                     text2 = ("Хуле палишь, ты время видел?\nИди в доту, гений")
                 else:
                     text2 = ("Хуле палишь, ты время видел?\nИди в кроватку, пупсик <3")
 
-            elif day_part > 6 and  day_part < 12:
+            elif day_part >= 6 and  day_part < 12:
                 text2 = ("Доброе утро!")
 
-            elif day_part > 12 and  day_part < 16:
+            elif day_part >= 12 and  day_part < 16:
                 text2 = ('Добрый день!')
 
-            elif  day_part > 16 and  day_part < 23.59:
+            elif  day_part >= 16 and  day_part < 24:
                 text2 = ('Добрый вечер!')
 
 
