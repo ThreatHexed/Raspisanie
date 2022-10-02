@@ -10,7 +10,7 @@ def download_docx(url):
 
         with open('raspisanie.doc', 'wb') as file:
             file.write(response.content)
-
+        
         doc = aw.Document('raspisanie.doc')
         doc.save('raspisanie.docx')
 
