@@ -1,0 +1,881 @@
+{
+"pari": [
+    {
+        "group":{
+            "name":"АТ-201",
+                "monday":{
+                    "3":{
+                        "para":"D14",
+                        "prepod":"D15"
+                    },
+                    "4":{
+                        "para":"D16",
+                        "prepod":"D17"
+                    },
+                    "5":{
+                        "para":"D18",
+                        "prepod":"D19"
+                    },
+                    "6":{
+                        "para":"D20",
+                        "prepod":"D21"
+                    }
+
+                    
+                },
+                "tuesday":{
+                    "3":{
+                        "para":"D23",
+                        "prepod":"D24"
+                    },
+                    "4":{
+                        "para":"D25",
+                        "prepod":"D26"
+                    },
+                    "5":{
+                        "para":"D27",
+                        "prepod":"D28"
+                    },
+                    "6":{
+                        "para":"D29",
+                        "prepod":"D30"
+                    }
+
+                    
+                },
+                "wednesday":{
+                    "3":{
+                        "para":"D32",
+                        "prepod":"D33"
+                    },
+                    "4":{
+                        "para":"D34",
+                        "prepod":"D35"
+                    },
+                    "5":{
+                        "para":"D36",
+                        "prepod":"D37"
+                    },
+                    "6":{
+                        "para":"D38",
+                        "prepod":"D39"
+                    }
+
+                    
+                },
+                "thursday":{
+                    "3":{
+                        "para":"D41",
+                        "prepod":"D42"
+                    },
+                    "4":{
+                        "para":"D43",
+                        "prepod":"D44"
+                    },
+                    "5":{
+                        "para":"D45",
+                        "prepod":"D46"
+                    },
+                    "6":{
+                        "para":"D47",
+                        "prepod":"D48"
+                    }
+
+                    
+                },
+                "friday":{
+                    "3":{
+                        "para":"D50",
+                        "prepod":"D51"
+                    },
+                    "4":{
+                        "para":"D52",
+                        "prepod":"D53"
+                    },
+                    "5":{
+                        "para":"D54",
+                        "prepod":"D55"
+                    },
+                    "6":{
+                        "para":"D56",
+                        "prepod":"D57"
+                    }
+
+                    
+                },
+                "saturday":{
+                    "3":{
+                        "para":"D59",
+                        "prepod":"D60"
+                    },
+                    "4":{
+                        "para":"D61",
+                        "prepod":"D62"
+                    },
+                    "5":{
+                        "para":"D63",
+                        "prepod":"D64"
+                    },
+                    "6":{
+                        "para":"D65",
+                        "prepod":"D66"
+                    }
+
+                    
+                }
+        } 
+    },
+    {
+        "group":{
+            "name":"ИБ-201",
+                "monday":{
+                    "3":{
+                        "para":"H14",
+                        "prepod":"H15"
+                    },
+                    "4":{
+                        "para":"H16",
+                        "prepod":"H17"
+                    },
+                    "5":{
+                        "para":"H18",
+                        "prepod":"H19"
+                    },
+                    "6":{
+                        "para":"H20",
+                        "prepod":"H21"
+                    }
+
+                    
+                },
+                "tuesday":{
+                    "3":{
+                        "para":"H23",
+                        "prepod":"H24"
+                    },
+                    "4":{
+                        "para":"H25",
+                        "prepod":"H26"
+                    },
+                    "5":{
+                        "para":"H27",
+                        "prepod":"H28"
+                    },
+                    "6":{
+                        "para":"H29",
+                        "prepod":"H30"
+                    }
+
+                    
+                },
+                "wednesday":{
+                    "3":{
+                        "para":"H32",
+                        "prepod":"H33"
+                    },
+                    "4":{
+                        "para":"H34",
+                        "prepod":"H35"
+                    },
+                    "5":{
+                        "para":"H36",
+                        "prepod":"H37"
+                    },
+                    "6":{
+                        "para":"H38",
+                        "prepod":"H39"
+                    }
+
+                    
+                },
+                "thursday":{
+                    "3":{
+                        "para":"H41",
+                        "prepod":"H42"
+                    },
+                    "4":{
+                        "para":"H43",
+                        "prepod":"H44"
+                    },
+                    "5":{
+                        "para":"H45",
+                        "prepod":"H46"
+                    },
+                    "6":{
+                        "para":"H47",
+                        "prepod":"H48"
+                    }
+
+                    
+                },
+                "friday":{
+                    "3":{
+                        "para":"H50",
+                        "prepod":"H51"
+                    },
+                    "4":{
+                        "para":"H52",
+                        "prepod":"H53"
+                    },
+                    "5":{
+                        "para":"H54",
+                        "prepod":"H55"
+                    },
+                    "6":{
+                        "para":"H56",
+                        "prepod":"H57"
+                    }
+
+                    
+                },
+                "saturday":{
+                    "3":{
+                        "para":"H59",
+                        "prepod":"H60"
+                    },
+                    "4":{
+                        "para":"H61",
+                        "prepod":"H62"
+                    },
+                    "5":{
+                        "para":"H63",
+                        "prepod":"H64"
+                    },
+                    "6":{
+                        "para":"H65",
+                        "prepod":"H66"
+                    }
+
+                    
+                }
+        } 
+    },
+    {
+        "group":{
+            "name":"ИБ-202",
+                "monday":{
+                    "3":{
+                        "para":"I14",
+                        "prepod":"I15"
+                    },
+                    "4":{
+                        "para":"I16",
+                        "prepod":"I17"
+                    },
+                    "5":{
+                        "para":"I18",
+                        "prepod":"I19"
+                    },
+                    "6":{
+                        "para":"I20",
+                        "prepod":"I21"
+                    }
+
+                    
+                },
+                "tuesday":{
+                    "3":{
+                        "para":"I23",
+                        "prepod":"I24"
+                    },
+                    "4":{
+                        "para":"I25",
+                        "prepod":"I26"
+                    },
+                    "5":{
+                        "para":"I27",
+                        "prepod":"I28"
+                    },
+                    "6":{
+                        "para":"I29",
+                        "prepod":"I30"
+                    }
+
+                    
+                },
+                "wednesday":{
+                    "3":{
+                        "para":"I32",
+                        "prepod":"I33"
+                    },
+                    "4":{
+                        "para":"I34",
+                        "prepod":"I35"
+                    },
+                    "5":{
+                        "para":"I36",
+                        "prepod":"I37"
+                    },
+                    "6":{
+                        "para":"I38",
+                        "prepod":"I39"
+                    }
+
+                    
+                },
+                "thursday":{
+                    "3":{
+                        "para":"I41",
+                        "prepod":"I42"
+                    },
+                    "4":{
+                        "para":"I43",
+                        "prepod":"I44"
+                    },
+                    "5":{
+                        "para":"I45",
+                        "prepod":"I46"
+                    },
+                    "6":{
+                        "para":"I47",
+                        "prepod":"I48"
+                    }
+
+                    
+                },
+                "friday":{
+                    "3":{
+                        "para":"I50",
+                        "prepod":"I51"
+                    },
+                    "4":{
+                        "para":"I52",
+                        "prepod":"I53"
+                    },
+                    "5":{
+                        "para":"I54",
+                        "prepod":"I55"
+                    },
+                    "6":{
+                        "para":"I56",
+                        "prepod":"I57"
+                    }
+
+                    
+                },
+                "saturday":{
+                    "3":{
+                        "para":"I59",
+                        "prepod":"I60"
+                    },
+                    "4":{
+                        "para":"I61",
+                        "prepod":"I62"
+                    },
+                    "5":{
+                        "para":"I63",
+                        "prepod":"I64"
+                    },
+                    "6":{
+                        "para":"I65",
+                        "prepod":"I66"
+                    }
+
+                    
+                }
+        } 
+    },
+    {
+        "group":{
+            "name":"ИБ-211",
+                "monday":{
+                    "3":{
+                        "para":"J14",
+                        "prepod":"J15"
+                    },
+                    "4":{
+                        "para":"J16",
+                        "prepod":"J17"
+                    },
+                    "5":{
+                        "para":"J18",
+                        "prepod":"J19"
+                    },
+                    "6":{
+                        "para":"J20",
+                        "prepod":"J21"
+                    }
+
+                    
+                },
+                "tuesday":{
+                    "3":{
+                        "para":"J23",
+                        "prepod":"J24"
+                    },
+                    "4":{
+                        "para":"J25",
+                        "prepod":"J26"
+                    },
+                    "5":{
+                        "para":"J27",
+                        "prepod":"J28"
+                    },
+                    "6":{
+                        "para":"J29",
+                        "prepod":"J30"
+                    }
+
+                    
+                },
+                "wednesday":{
+                    "3":{
+                        "para":"J32",
+                        "prepod":"J33"
+                    },
+                    "4":{
+                        "para":"J34",
+                        "prepod":"J35"
+                    },
+                    "5":{
+                        "para":"J36",
+                        "prepod":"J37"
+                    },
+                    "6":{
+                        "para":"J38",
+                        "prepod":"J39"
+                    }
+
+                    
+                },
+                "thursday":{
+                    "3":{
+                        "para":"J41",
+                        "prepod":"J42"
+                    },
+                    "4":{
+                        "para":"J43",
+                        "prepod":"J44"
+                    },
+                    "5":{
+                        "para":"J45",
+                        "prepod":"J46"
+                    },
+                    "6":{
+                        "para":"J47",
+                        "prepod":"J48"
+                    }
+
+                    
+                },
+                "friday":{
+                    "3":{
+                        "para":"J50",
+                        "prepod":"J51"
+                    },
+                    "4":{
+                        "para":"J52",
+                        "prepod":"J53"
+                    },
+                    "5":{
+                        "para":"J54",
+                        "prepod":"J55"
+                    },
+                    "6":{
+                        "para":"J56",
+                        "prepod":"J57"
+                    }
+
+                    
+                },
+                "saturday":{
+                    "3":{
+                        "para":"J59",
+                        "prepod":"J60"
+                    },
+                    "4":{
+                        "para":"J61",
+                        "prepod":"J62"
+                    },
+                    "5":{
+                        "para":"J63",
+                        "prepod":"J64"
+                    },
+                    "6":{
+                        "para":"J65",
+                        "prepod":"J66"
+                    }
+
+                    
+                }
+        } 
+    },
+    {
+        "group":{
+            "name":"ИС-211",
+                "monday":{
+                    "3":{
+                        "para":"K14",
+                        "prepod":"K15"
+                    },
+                    "4":{
+                        "para":"K16",
+                        "prepod":"K17"
+                    },
+                    "5":{
+                        "para":"K18",
+                        "prepod":"K19"
+                    },
+                    "6":{
+                        "para":"K20",
+                        "prepod":"K21"
+                    }
+
+                    
+                },
+                "tuesday":{
+                    "3":{
+                        "para":"K23",
+                        "prepod":"K24"
+                    },
+                    "4":{
+                        "para":"K25",
+                        "prepod":"K26"
+                    },
+                    "5":{
+                        "para":"K27",
+                        "prepod":"K28"
+                    },
+                    "6":{
+                        "para":"K29",
+                        "prepod":"K30"
+                    }
+
+                    
+                },
+                "wednesday":{
+                    "3":{
+                        "para":"K32",
+                        "prepod":"K33"
+                    },
+                    "4":{
+                        "para":"K34",
+                        "prepod":"K35"
+                    },
+                    "5":{
+                        "para":"K36",
+                        "prepod":"K37"
+                    },
+                    "6":{
+                        "para":"K38",
+                        "prepod":"K39"
+                    }
+
+                    
+                },
+                "thursday":{
+                    "3":{
+                        "para":"K41",
+                        "prepod":"K42"
+                    },
+                    "4":{
+                        "para":"K43",
+                        "prepod":"K44"
+                    },
+                    "5":{
+                        "para":"K45",
+                        "prepod":"K46"
+                    },
+                    "6":{
+                        "para":"K47",
+                        "prepod":"K48"
+                    }
+
+                    
+                },
+                "friday":{
+                    "3":{
+                        "para":"K50",
+                        "prepod":"K51"
+                    },
+                    "4":{
+                        "para":"K52",
+                        "prepod":"K53"
+                    },
+                    "5":{
+                        "para":"K54",
+                        "prepod":"K55"
+                    },
+                    "6":{
+                        "para":"K56",
+                        "prepod":"K57"
+                    }
+
+                    
+                },
+                "saturday":{
+                    "3":{
+                        "para":"K59",
+                        "prepod":"K60"
+                    },
+                    "4":{
+                        "para":"K61",
+                        "prepod":"K62"
+                    },
+                    "5":{
+                        "para":"K63",
+                        "prepod":"K64"
+                    },
+                    "6":{
+                        "para":"K65",
+                        "prepod":"K66"
+                    }
+
+                    
+                }
+        } 
+    },
+    {
+        "group":{
+            "name":"ИС-212",
+                "monday":{
+                    "3":{
+                        "para":"L14",
+                        "prepod":"L15"
+                    },
+                    "4":{
+                        "para":"L16",
+                        "prepod":"L17"
+                    },
+                    "5":{
+                        "para":"L18",
+                        "prepod":"L19"
+                    },
+                    "6":{
+                        "para":"L20",
+                        "prepod":"L21"
+                    }
+
+                    
+                },
+                "tuesday":{
+                    "3":{
+                        "para":"L23",
+                        "prepod":"L24"
+                    },
+                    "4":{
+                        "para":"L25",
+                        "prepod":"L26"
+                    },
+                    "5":{
+                        "para":"L27",
+                        "prepod":"L28"
+                    },
+                    "6":{
+                        "para":"L29",
+                        "prepod":"L30"
+                    }
+
+                    
+                },
+                "wednesday":{
+                    "3":{
+                        "para":"L32",
+                        "prepod":"L33"
+                    },
+                    "4":{
+                        "para":"L34",
+                        "prepod":"L35"
+                    },
+                    "5":{
+                        "para":"L36",
+                        "prepod":"L37"
+                    },
+                    "6":{
+                        "para":"L38",
+                        "prepod":"L39"
+                    }
+
+                    
+                },
+                "thursday":{
+                    "3":{
+                        "para":"L41",
+                        "prepod":"L42"
+                    },
+                    "4":{
+                        "para":"L43",
+                        "prepod":"L44"
+                    },
+                    "5":{
+                        "para":"L45",
+                        "prepod":"L46"
+                    },
+                    "6":{
+                        "para":"L47",
+                        "prepod":"L48"
+                    }
+
+                    
+                },
+                "friday":{
+                    "3":{
+                        "para":"L50",
+                        "prepod":"L51"
+                    },
+                    "4":{
+                        "para":"L52",
+                        "prepod":"L53"
+                    },
+                    "5":{
+                        "para":"L54",
+                        "prepod":"L55"
+                    },
+                    "6":{
+                        "para":"L56",
+                        "prepod":"L57"
+                    }
+
+                    
+                },
+                "saturday":{
+                    "3":{
+                        "para":"L59",
+                        "prepod":"L60"
+                    },
+                    "4":{
+                        "para":"L61",
+                        "prepod":"L62"
+                    },
+                    "5":{
+                        "para":"L63",
+                        "prepod":"L64"
+                    },
+                    "6":{
+                        "para":"L65",
+                        "prepod":"L66"
+                    }
+
+                    
+                }
+        } 
+    },
+    {
+        "group":{
+            "name":"ИС-213",
+                "monday":{
+                    "3":{
+                        "para":"M14",
+                        "prepod":"M15"
+                    },
+                    "4":{
+                        "para":"M16",
+                        "prepod":"M17"
+                    },
+                    "5":{
+                        "para":"M18",
+                        "prepod":"M19"
+                    },
+                    "6":{
+                        "para":"M20",
+                        "prepod":"M21"
+                    }
+
+                    
+                },
+                "tuesday":{
+                    "3":{
+                        "para":"M23",
+                        "prepod":"M24"
+                    },
+                    "4":{
+                        "para":"M25",
+                        "prepod":"M26"
+                    },
+                    "5":{
+                        "para":"M27",
+                        "prepod":"M28"
+                    },
+                    "6":{
+                        "para":"M29",
+                        "prepod":"M30"
+                    }
+
+                    
+                },
+                "wednesday":{
+                    "3":{
+                        "para":"M32",
+                        "prepod":"M33"
+                    },
+                    "4":{
+                        "para":"M34",
+                        "prepod":"M35"
+                    },
+                    "5":{
+                        "para":"M36",
+                        "prepod":"M37"
+                    },
+                    "6":{
+                        "para":"M38",
+                        "prepod":"M39"
+                    }
+
+                    
+                },
+                "thursday":{
+                    "3":{
+                        "para":"M41",
+                        "prepod":"M42"
+                    },
+                    "4":{
+                        "para":"M43",
+                        "prepod":"M44"
+                    },
+                    "5":{
+                        "para":"M45",
+                        "prepod":"M46"
+                    },
+                    "6":{
+                        "para":"M47",
+                        "prepod":"M48"
+                    }
+
+                    
+                },
+                "friday":{
+                    "3":{
+                        "para":"M50",
+                        "prepod":"M51"
+                    },
+                    "4":{
+                        "para":"M52",
+                        "prepod":"M53"
+                    },
+                    "5":{
+                        "para":"M54",
+                        "prepod":"M55"
+                    },
+                    "6":{
+                        "para":"M56",
+                        "prepod":"M57"
+                    }
+
+                    
+                },
+                "saturday":{
+                    "3":{
+                        "para":"M59",
+                        "prepod":"M60"
+                    },
+                    "4":{
+                        "para":"M61",
+                        "prepod":"M62"
+                    },
+                    "5":{
+                        "para":"M63",
+                        "prepod":"M64"
+                    },
+                    "6":{
+                        "para":"M65",
+                        "prepod":"M66"
+                    }
+
+                    
+                }
+        } 
+    }
+
+]
+
+}
