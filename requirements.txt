@@ -1,0 +1,7 @@
+aspose_words==23.3.0
+beautifulsoup4==4.12.2
+docx==0.2.4
+pyTelegramBotAPI==4.10.0
+pyTelegramBotAPI==4.11.0
+python_docx==0.8.11
+Requests==2.30.0
