@@ -2,9 +2,7 @@ import json
 
 import openpyxl
 import re
-# ///
-# Алллах защити мой код
-# ///
+
 
 
 excel_file = openpyxl.load_workbook('X:/123/Output.xlsx')
@@ -21,12 +19,12 @@ for p in range(0,7):
             for para in pari['pari'][p]['group'][n]:
                 for i in para:
                     cell = pari['pari'][p]['group'][n][i]['para']
-                    print(cell)
+                   
                     pari_norm['pari'][p]['group'][n][i]['para'] = re.sub(" +", " ", str(employees_sheet[cell].value))
                     
                     cell1 = pari['pari'][p]['group'][n][i]['prepod']
                     pari_norm['pari'][p]['group'][n][i]['prepod'] = re.sub(" +", " ", str(employees_sheet[cell1].value))
 
-
+print('complited')
 with open('pari_norm.json', 'w', encoding='utf-8') as outfile:
     json.dump(pari_norm, outfile, indent=4, ensure_ascii=False, separators=(',', ': '))
