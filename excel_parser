@@ -10,7 +10,7 @@ import re
 excel_file = openpyxl.load_workbook('X:/123/Output.xlsx')
 employees_sheet = excel_file['Лист1']
 
-with open('pari.json', 'r', encoding='utf-8') as f:
+with open('X:/123/Raspisanie/pari.json', 'r', encoding='utf-8') as f:
     pari = json.load(f)
 
 pari_norm = pari
