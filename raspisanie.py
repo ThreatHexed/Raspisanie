@@ -33,11 +33,11 @@ def get_table(group):
 
                                 for t in range(0, len(gpz2), 2):
                                     if gpz2[t] == group:
-                                        return(f'Расписание для группы {gpz[i]} {date}❗️\n{str(gpz[i+1])}\n\nРасписание для группы {aboba[-1]}:\n{gpz2[t+1]}')
-                        return(f'Расписание для группы {gpz[i]} {date}❗️\n{str(gpz[i+1])}')
+                                        return(f'Замены для группы {gpz[i]} {date}❗️\n{str(gpz[i+1])}\n\nЗамены для группы {aboba[-1]}:\n{gpz2[t+1]}')
+                        return(f'Замены для группы {gpz[i]} {date}❗️\n{str(gpz[i+1])}')
 
                     elif table[0] == 2 or table[0] == 3:
                         date = aboba[2]
-                        return(f'Расписание для группы {gpz[i]} {date}❗️\n{str(gpz[i+1])}')
+                        return(f'Замены для группы {gpz[i]} {date}❗️\n{str(gpz[i+1])}')
 
     return False

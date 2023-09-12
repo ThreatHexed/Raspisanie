@@ -6,9 +6,9 @@ import random
 import raspisanie
 import locale
 import anekdot
-# import raspisanie1
+import test
 
-locale.setlocale(locale.LC_ALL, "ru")
+# locale.setlocale(locale.LC_ALL, "ru")
 
 bot = telebot.TeleBot(token)
 
@@ -18,7 +18,7 @@ def start(message):
 
     markup = types.ReplyKeyboardMarkup(resize_keyboard=True)
     btn1 = types.KeyboardButton("Случайный анекдот")
-    btn2 = types.KeyboardButton(f"🕑Замены")
+    btn2 = types.KeyboardButton(f"🕑Расписание")
     btn3 = types.KeyboardButton("ИС-213")
     markup.add(btn1, btn2, btn3)
     dt = datetime.today().strftime("%A, %d.%m.%Y")
@@ -54,7 +54,7 @@ def func(message):
         
     #     bot.send_message(message.chat.id, text=raspisanie1.get_table('ИС-213'))
 
-    elif(message.text == "🕑Замены"):
+    elif(message.text == "🕑Расписание"):
         msg = bot.send_message(message.chat.id, text="Напишите номер группы")
         bot.register_next_step_handler(msg, get_group)
     
@@ -67,7 +67,7 @@ def func(message):
     elif (message.text == "Вернуться в главное меню"):
             markup = types.ReplyKeyboardMarkup(resize_keyboard=True)
             btn1 = types.KeyboardButton("Случайный анекдот")
-            btn2 = types.KeyboardButton(f"🕑Замены")
+            btn2 = types.KeyboardButton(f"🕑Расписание")
             btn3 = types.KeyboardButton("ИС-213")
             markup.add(btn1, btn2, btn3)
             dt = datetime.today().strftime("%A, %d.%m.%Y")
@@ -107,13 +107,13 @@ def get_group(message):
         back = types.KeyboardButton("Вернуться в главное меню")
         markup = types.ReplyKeyboardMarkup(resize_keyboard=True)
         markup.add(back)
-        bot.send_message(message.chat.id, text=raspisanie.get_table(group), reply_markup=markup)
+        bot.send_message(message.chat.id, text=f'{test.raspisanietop(group)}\n\n{raspisanie.get_table(group)}', reply_markup=markup)
 
     elif raspisanie.get_table(group) == False:
         back = types.KeyboardButton("Вернуться в главное меню")
         markup = types.ReplyKeyboardMarkup(resize_keyboard=True)
         markup.add(back)
-        bot.send_message(message.chat.id, text=f'Для группы {group} замен не найдено', reply_markup=markup)
+        bot.send_message(message.chat.id, text=f'{test.raspisanietop(group)}\n\nДля группы {group} замен не найдено', reply_markup=markup)
 
     # huyna(message, group)
 
