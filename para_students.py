@@ -48,8 +48,8 @@ def raspisanietop(group):
             
             
         return raspisanie
-    except:
-        return "Ошибка"
+    except Exception as e:
+        return f"Ошибки \n {e} \n А теперь пиздуй чинить"
     
 
 

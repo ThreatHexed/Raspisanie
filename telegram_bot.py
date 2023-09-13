@@ -6,12 +6,12 @@ import random
 import raspisanie
 import locale
 import anekdot
-import test
-import test2
+import para_students
+import para_prepod
 
 # locale.setlocale(locale.LC_ALL, "ru")
 
-bot = telebot.TeleBot(token)
+bot = telebot.TeleBot(token)    
 
 @bot.message_handler(commands=['start'])
 
@@ -53,7 +53,7 @@ def func(message):
     
     elif(message.text == "Препод"):
         
-        msg = bot.send_message(message.chat.id, text="Введите фамилию долбаеба")
+        msg = bot.send_message(message.chat.id, text="Введите фамилию преподавателя")
         bot.register_next_step_handler(msg, get_prepod)
 
     elif(message.text == "🕑Расписание"):
@@ -109,20 +109,20 @@ def get_group(message):
         back = types.KeyboardButton("Вернуться в главное меню")
         markup = types.ReplyKeyboardMarkup(resize_keyboard=True)
         markup.add(back)
-        bot.send_message(message.chat.id, text=f'{test.raspisanietop(group)}\n\n{raspisanie.get_table(group)}', reply_markup=markup)
+        bot.send_message(message.chat.id, text=f'{para_students.raspisanietop(group)}\n\n{raspisanie.get_table(group)}', reply_markup=markup)
 
     elif raspisanie.get_table(group) == False:
         back = types.KeyboardButton("Вернуться в главное меню")
         markup = types.ReplyKeyboardMarkup(resize_keyboard=True)
         markup.add(back)
-        bot.send_message(message.chat.id, text=f'{test.raspisanietop(group)}\n\nДля группы {group} замен не найдено', reply_markup=markup)
+        bot.send_message(message.chat.id, text=f'{para_students.raspisanietop(group)}\n\nДля группы {group} замен не найдено', reply_markup=markup)
 
     # huyna(message, group)
 def get_prepod(message):
         back = types.KeyboardButton("Вернуться в главное меню")
         markup = types.ReplyKeyboardMarkup(resize_keyboard=True)
         markup.add(back)
-        bot.send_message(message.chat.id, text=f'{test2.raspisanietop2(message)}', reply_markup=markup)
+        bot.send_message(message.chat.id, text=f'{para_prepod.raspisanietop2(message.text)}', reply_markup=markup)
 
 
 
