@@ -14,14 +14,13 @@ def raspisanietop2(prepod):
         weekday = ['0', "Понедельник", "Вторник", "Среда", "Четверг", "Пятница", "Суббота"]
         
 
-        # if datetime.now().hour > 8:
-        #     userdate = str(date.today().isoweekday()+1)
+        if datetime.now().hour > 8:
+            userdate = str(date.today().isoweekday()+1)
             
-        # else: 
-        #     userdate = str(date.today().isoweekday())
+        else: 
+            userdate = str(date.today().isoweekday())
             
-        userdate = "3"
-
+            
         with open("123.json", "r", encoding='utf-8') as f:
             data = json.load(f)
         
