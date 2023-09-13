@@ -21,7 +21,7 @@ def raspisanietop2(prepod):
             userdate = str(date.today().isoweekday())
             
             
-        with open("123.json", "r", encoding='utf-8') as f:
+        with open("1234.json", "r", encoding='utf-8') as f:
             data = json.load(f)
         
 
@@ -32,7 +32,7 @@ def raspisanietop2(prepod):
         excel = pd.read_excel(io='test1.xlsx',
                     engine='openpyxl',
                     usecols='A:S',
-                    header=9,
+                    header=8,
                     )
 
         para = f'{weekday[int(userdate)]}\n\n'
@@ -46,7 +46,7 @@ def raspisanietop2(prepod):
 
 
                 if str(excel[group].loc[day[day_number]]).find(str(prepod))  > -1:
-                    para += (f"{excel[group].loc[day[day_number]-1]} \n {excel[group].loc[day[day_number]]}\n____________\n")
+                    para += (f"{excel[group].loc[0]} \n {excel[group].loc[day[day_number]-1]} \n {excel[group].loc[day[day_number]]}\n____________\n")
         if prepod == 'Колесников':
             para += "\nТакого преподавателя я в хуй не дул, и вообще, дядя, кто ты нахуй такой"
 
