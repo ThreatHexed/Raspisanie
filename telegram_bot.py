@@ -7,6 +7,7 @@ import raspisanie
 import locale
 import anekdot
 import test
+import test2
 
 # locale.setlocale(locale.LC_ALL, "ru")
 
@@ -19,7 +20,7 @@ def start(message):
     markup = types.ReplyKeyboardMarkup(resize_keyboard=True)
     btn1 = types.KeyboardButton("Случайный анекдот")
     btn2 = types.KeyboardButton(f"🕑Расписание")
-    btn3 = types.KeyboardButton("ИС-213")
+    btn3 = types.KeyboardButton("Препод")
     markup.add(btn1, btn2, btn3)
     dt = datetime.today().strftime("%A, %d.%m.%Y")
     day_part = int(datetime.today().hour)
@@ -50,9 +51,10 @@ def func(message):
     if(message.text == "Случайный анекдот"):
         bot.send_message(message.chat.id, text=anekdot.get_first_news())
     
-    # elif(message.text == "ИС-213"):
+    elif(message.text == "Препод"):
         
-    #     bot.send_message(message.chat.id, text=raspisanie1.get_table('ИС-213'))
+        msg = bot.send_message(message.chat.id, text="Введите фамилию долбаеба")
+        bot.register_next_step_handler(msg, get_prepod)
 
     elif(message.text == "🕑Расписание"):
         msg = bot.send_message(message.chat.id, text="Напишите номер группы")
@@ -68,7 +70,7 @@ def func(message):
             markup = types.ReplyKeyboardMarkup(resize_keyboard=True)
             btn1 = types.KeyboardButton("Случайный анекдот")
             btn2 = types.KeyboardButton(f"🕑Расписание")
-            btn3 = types.KeyboardButton("ИС-213")
+            btn3 = types.KeyboardButton("Препод")
             markup.add(btn1, btn2, btn3)
             dt = datetime.today().strftime("%A, %d.%m.%Y")
             day_part = int(datetime.today().hour)
@@ -116,6 +118,13 @@ def get_group(message):
         bot.send_message(message.chat.id, text=f'{test.raspisanietop(group)}\n\nДля группы {group} замен не найдено', reply_markup=markup)
 
     # huyna(message, group)
+def get_prepod(message):
+        back = types.KeyboardButton("Вернуться в главное меню")
+        markup = types.ReplyKeyboardMarkup(resize_keyboard=True)
+        markup.add(back)
+        bot.send_message(message.chat.id, text=f'{test2.raspisanietop2(message)}', reply_markup=markup)
+
+
 
 @bot.message_handler(content_types=['text'])
 def huyna(message):

@@ -7,9 +7,9 @@ import numpy as np
 
 
 
-def raspisanietop(group):
+def raspisanietop2(prepod):
     
-    try:
+    # try:
         day228 = ['0', "Понедельник", "Вторник", "Среда", "Четверг", "Пятница", "Суббота"]
         
 
@@ -34,24 +34,18 @@ def raspisanietop(group):
                     header=9,
                     )
 
-        
+        para = ""
+        print(day)
+        for day1337 in day:
 
-        text = text.fillna("Сиди играй в дотку")
+            for group in text:
+            
+                superday = int(day[day1337])
+                if str(text[group].loc[superday]).find(str(prepod))  > -1 :
+                    para += (f"{text[group].loc[superday-1]} \n {text[group].loc[superday]}")
+                
 
-        for id, i in enumerate(day, 2):
-            
-            day1 = int(day[i])
-            if id % 2 == 0:
-                id -= int(id/2)
-            else: id = ""
-            raspisanie +=  f'\n{str(id)} {str(text[group].loc[day1])}' 
-            
-            
-        return raspisanie
-    except:
-        return "Ошибка"
+    #     return para                 
+    # except:
+    #     return "ошибка"
     
-
-
-
-
