@@ -8,6 +8,8 @@ import locale
 import anekdot
 import para_students
 import para_prepod
+import socket
+
 
 # locale.setlocale(locale.LC_ALL, "ru")
 
@@ -136,4 +138,9 @@ def huyna(message):
     
     
 if __name__ == '__main__':
-    bot.polling(none_stop=True)
+    while(True):
+        try:
+            bot.polling(none_stop=True)
+        except:
+            pass
+    
