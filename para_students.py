@@ -3,14 +3,14 @@ import json
 from datetime import date
 from datetime import datetime
 
-import numpy as np
+
 
 
 
 def raspisanietop(group):
     
     try:
-        day228 = ['0', "Понедельник", "Вторник", "Среда", "Четверг", "Пятница", "Суббота"]
+        day228 = ['0', "Понедельник", "Вторник", "Среда", "Четверг", "Пятница", "Суббота", "Понедельник", "Понедельник"]
         
 
         if datetime.now().hour > 12:
@@ -21,7 +21,7 @@ def raspisanietop(group):
             date2 = int(date.today().isoweekday())
         with open("123.json", "r", encoding='utf-8') as f:
             data = json.load(f)
-        
+      
         raspisanie = f'{day228[date2]}\n'
 
         day = data[date1]
@@ -35,7 +35,7 @@ def raspisanietop(group):
                     )
 
         
-
+        
         text = text.fillna("Сиди играй в дотку")
 
         for id, i in enumerate(day, 2):
@@ -45,6 +45,7 @@ def raspisanietop(group):
                 id -= int(id/2)
             else: id = ""
             raspisanie +=  f'\n{str(id)} {str(text[group].loc[day1])}' 
+            
             
             
         return raspisanie

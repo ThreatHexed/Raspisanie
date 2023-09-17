@@ -18,7 +18,7 @@ bot = telebot.TeleBot(token)
 @bot.message_handler(commands=['start'])
 
 def start(message):
-
+    
     markup = types.ReplyKeyboardMarkup(resize_keyboard=True)
     btn1 = types.KeyboardButton("Случайный анекдот")
     btn2 = types.KeyboardButton(f"🕑Расписание")
@@ -26,7 +26,7 @@ def start(message):
     markup.add(btn1, btn2, btn3)
     dt = datetime.today().strftime("%A, %d.%m.%Y")
     day_part = int(datetime.today().hour)
-
+   
 
     if day_part >= 0 and  day_part < 6:
         if random.randint(1, 100) == 100:
@@ -58,9 +58,11 @@ def func(message):
         msg = bot.send_message(message.chat.id, text="Введите фамилию преподавателя")
         bot.register_next_step_handler(msg, get_prepod)
 
+
     elif(message.text == "🕑Расписание"):
         msg = bot.send_message(message.chat.id, text="Напишите номер группы")
         bot.register_next_step_handler(msg, get_group)
+
     
 
 
